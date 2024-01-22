@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Lemon&family=Salsa&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+    margin: 12px 0;
+}
+
+h2{
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 349px;
+    color: black;
+}
+
+.container h1{
+    text-align: center;
+    /* color: brown; */
+}
+
+.container{
+    background-color: rgb(114, 114, 114);
+}

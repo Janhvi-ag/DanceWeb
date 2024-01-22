@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Lemon&family=Salsa&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+h1{
+    text-align: center;
+    margin: 12px 0;
+
+}
+
+.container{
+    justify-content: center;
+    min-height: 81vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(114, 114, 114);
+}
+
+.container h1{
+    font-family: 'Salsa', cursive;
+    font-size: 34px;
+}
+
+.myForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.myInput{
+    font-size: 15px;
+    width: 40%;
+    padding: 9px;
+    margin: 8px;
+    border: 2px solid rgba(78, 78, 78, 0.925);
+    border-radius: 12px;
+    outline: none;
+}
+
+.btn{
+    padding: 5px 14px;
+    font-size: 15px;
+    border: 2px solid gray;
+    color: white;
+    background: black;
+    border-radius: 12px;
+    cursor: pointer;
+    margin: 10px;
+    outline: none;
+}
